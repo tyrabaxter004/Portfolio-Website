@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tyra's Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+  
+    <header class = "header">
+        <a href="#" class="logo"><span>Tyra Baxter</span></a>
+          
+            <ul class="nav-links"> 
+                <li><a href= "#home"> Home</a></li>
+                <li><a href= "#about">About Me</a></li>
+                <li><a href= "#projects"> Projects</a></li>
+                <li><a href= "#contact"> Contact </a></li>
+                <li><a href= "#resume"> Resume </a></li>
+            </ul>
+            
+        
+    </header>
+
+
+  <section  class="home" id="home">
+    <div class="home-container">
+        <img src="headshot.JPG" alt="">
+
+          <div class="info-box">
+            <div class="text">
+              <h2>Welcome to my Portfolio </h2>
+              <h2>My name Tyra Baxter </h2>
+          
+            </div>
+          </div>
+    </div>
+  </section>
+
+
+<section class="about" id="about">
+    <h2>About Me</h2>
+    
+     <h3>Technical Skills</h3>
+<ul>
+  <li>Python (beginner), Java</li>
+  <li>Linux Administration, CLI</li>
+  <li>Networking: Wireshark, Cisco Packet Tracer</li>
+  <li>Cybersecurity: Nessus, Metasploit</li>
+  <li>Server Management: Windows Server, Active Directory, PowerShell</li>
+</ul>
+
+<h3>Work Experience</h3>
+<h4>FICO Analyst Intern</h4>
+<p> As a FICO Analyst intern, I worked with a team to develop an AI language model and designed to classifiy intents banking conversations. </p>
+<h4>System Administrator Intern</h4>
+<p>
+  As a System Administrator intern, I managed user accounts in a Windows environment and performed firmware updates. I also tested and terminated Ethernet cables to ensure reliable connection in classrooms.
+</p>
+<h3>Clubs & Extracurricular Activities</h3>
+<p>
+  I volunteered with the Child & Adolescent Studies Association (CAAS), where I helped organize school supply drives and community events such as Trunk or Treat. These activities allowed me support children and families in need.
+</p>
+
+ </section>
+
+  
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Virtual Mail Server</h3>
+        <p> In this project, I set up a secure virtual mail server by configuring core services. Then configured STMP authentication to ensure reliable email delivery.
+</p>
+ .</p>
+        <a href="https://github.com/tyrabaxter004/Virtual-Mail-Server-Project.git" target="_blank">View on GitHub</a>
+      </div>
+     
+<div class="project">
+        <h3>Data Anayltics Project</h3>
+        <p> In this project, I analyzing the effectiveness of the Zero Trust cybersecurity framework by following the data scienece pipeline and using Microsoft Excel for visualization </p>
+       <a href="https://github.com/tyrabaxter004/Data-Analytics-Project.git" target="_blank">View on GitHub</a>
+      </div>
+
+<div class="project">
+        <h3>Security Hardening</h3>
+       <p> In this project, I designed the IT infrastructure for a fictional bank. Then I implementing different security hardening techniques and conducted an vulnerability assessment.</p>
+
+        <a href="https://github.com/tyrabaxter004/Security-Hardening-Project.git" target="_blank">View on GitHub</a>
+      </div>
+
+
+    </div>
+  </section>
+
+  
+  <section class="contact" id="contact">
+    <h2>Contact </h2>
+    <p>Email: tyrabaxter004@gmail.com </p>
+    <p>Phone: 443-902-7800</p>
+
+    <div class="socials" >
+              <i class="fa-brands fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/tyra-baxter-b2ab31255/" target="_blank">LinkedIn</a>
+            </div>
+      
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="5c321d40-9105-4963-8bdf-04aa86554c9e">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+    
+
+  
+  <section class="resume" id="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume below .</p>
+    <a href="Tyra Baxter__Resume.pdf" download class="btn">Download Resume</a>
+    
+    <p>Scan the QR code to visit my GitHub</p>
+    <div class="qr-code">
+      <img src="tyra-baxter-github.png" alt="GitHub QR Code">
+    </div>
+  </section>
+
+
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Tyra&#x27;sChatbot"
+  agent-id="fcad97eb-9bb1-4355-8881-a11e3381cee9"
+  language-code="en"
+></df-messenger>
+
+</body>
+
+</html>
